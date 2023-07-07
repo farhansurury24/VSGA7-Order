@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #71cef0;
+}
+
+header{
+    background-color: #23bef7;
+    padding: 15px;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+
+main{
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+}
+
+li{
+    list-style: none;
+    background-color: #c0dfeb;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+    padding: 7px;
+}
+
+.item:hover{
+    background-color: #22a4d6;
+    color: white;
+}
+
+#last-item{
+    background-color: white;
+}
+
+li span{
+    float: right;
+}
